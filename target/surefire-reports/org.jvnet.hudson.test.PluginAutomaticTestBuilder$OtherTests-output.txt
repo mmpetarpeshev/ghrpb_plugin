@@ -1,0 +1,26 @@
+Jul 18, 2019 10:53:08 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@62a4417{HTTP/1.1,[http/1.1]}{localhost:0}
+Jul 18, 2019 10:53:08 AM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+Jul 18, 2019 10:53:08 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@7fb33394{/,file:///Users/petarpeshev/ghprb-plugin/target/jenkins-for-test/,UNAVAILABLE}{/Users/petarpeshev/ghprb-plugin/target/jenkins-for-test}
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jul 18, 2019 10:53:08 AM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #1 from /192.168.128.49:58286
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+Jul 18, 2019 10:53:08 AM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

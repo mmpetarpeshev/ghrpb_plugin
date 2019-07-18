@@ -1,0 +1,57 @@
+Running tests for org.jenkins-ci.plugins:ghprb:1.42.1-SNAPSHOT
+Jul 18, 2019 10:52:57 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @434ms to org.eclipse.jetty.util.log.Slf4jLog
+Jul 18, 2019 10:52:59 AM org.jvnet.hudson.test.WarExploder explode
+INFO: Exploding /Users/petarpeshev/.m2/repository/org/jenkins-ci/main/jenkins-war/2.7/jenkins-war-2.7.war into /Users/petarpeshev/ghprb-plugin/target/jenkins-for-test
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@7fb33394{/,file:///Users/petarpeshev/ghprb-plugin/target/jenkins-for-test/,AVAILABLE}{/Users/petarpeshev/ghprb-plugin/target/jenkins-for-test}
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@62a4417{HTTP/1.1,[http/1.1]}{localhost:58280}
+Jul 18, 2019 10:53:01 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @4141ms
+Jul 18, 2019 10:53:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jul 18, 2019 10:53:03 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jul 18, 2019 10:53:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jul 18, 2019 10:53:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jul 18, 2019 10:53:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jul 18, 2019 10:53:06 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.GitStep$DescriptorImpl; skipping
+Jul 18, 2019 10:53:06 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.SubversionStep$DescriptorImpl; skipping
+Jul 18, 2019 10:53:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jul 18, 2019 10:53:06 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 58282
+Jul 18, 2019 10:53:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@6eb17ec8{/,null,AVAILABLE}
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@6a094db2{HTTP/1.1,[http/1.1]}{0.0.0.0:58284}
+Jul 18, 2019 10:53:06 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @9431ms

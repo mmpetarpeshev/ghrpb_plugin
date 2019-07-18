@@ -1,0 +1,17 @@
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbPullRequestTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbITBaseTestCase.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/impl/GhprbDefaultBuildManagerTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbRepositoryTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbIT.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbBuildsTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/rules/JenkinsRuleWithBuildFlow.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/impl/downstreambuilds/BuildFlowBuildManagerTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/configuration/JobConfigurationTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbRootActionTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/factory/GhprbBuildManagerFactoryUtilTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/extensions/status/GhprbSimpleStatusTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbTriggerTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbPullRequestMergeTest.java
+/Users/petarpeshev/ghprb-plugin/target/generated-test-sources/injected/InjectedTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GeneralTest.java
+/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbTestUtil.java

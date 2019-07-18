@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.7">
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbGitHubAuth.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbRepository.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbParametersAction.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbPullRequest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbBranch.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbCause.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbCrumbExclusion.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbTrigger.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbBuildListener.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/Ghprb.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbTriggerBackwardsCompatible.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/comments/GhprbBuildLog.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/comments/GhprbPublishJenkinsUrl.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/comments/GhprbBuildResultMessage.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/comments/GhprbBuildStatus.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/comments/GhprbCommentFile.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbGlobalDefault.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbExtensionDescriptor.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbBuildStep.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/status/GhprbSimpleStatusDescriptor.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/status/GhprbSimpleStatus.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbExtensionType.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbCommitStatusException.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbCommentAppender.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbGlobalExtension.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/build/GhprbCancelBuildsOnUpdate.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbProjectExtension.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/extensions/GhprbExtension.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/impl/downstreambuilds/BuildFlowBuildManager.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/impl/GhprbBaseBuildManager.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/impl/GhprbDefaultBuildManager.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/GhprbBuildManager.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/configuration/JobConfiguration.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/manager/factory/GhprbBuildManagerFactoryUtil.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbRootAction.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbBuilds.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbTokenMacro.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/HttpConnectorWithJenkinsProxy.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbUpstreamStatusContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbContextExtensionPoint.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbSimpleStatusContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbCommentFilePathContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbTriggerContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbPullRequestMergeContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbExtensionContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbBuildStatusContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/jobdsl/GhprbCancelBuildsOnUpdateContext.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbPullRequestMerge.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/upstream/GhprbUpstreamStatus.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/upstream/GhprbUpstreamStatusListener.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/main/java/org/jenkinsci/plugins/ghprb/GhprbGitHub.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbRepositoryTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbIT.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbPullRequestTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbTriggerTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GeneralTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/extensions/status/GhprbSimpleStatusTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/impl/GhprbDefaultBuildManagerTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/impl/downstreambuilds/BuildFlowBuildManagerTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/configuration/JobConfigurationTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/manager/factory/GhprbBuildManagerFactoryUtilTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbPullRequestMergeTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbBuildsTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbRootActionTest.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/rules/JenkinsRuleWithBuildFlow.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbTestUtil.java">
+</file>
+<file name="/Users/petarpeshev/ghprb-plugin/src/test/java/org/jenkinsci/plugins/ghprb/GhprbITBaseTestCase.java">
+</file>
+</checkstyle>

@@ -1,0 +1,44 @@
+=== Starting testCommentOnBuildResultWithSkip(org.jenkinsci.plugins.ghprb.GhprbBuildsTest)
+   0.010 [id=83]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:58287/jenkins/
+   0.113 [id=89]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.115 [id=102]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.228 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.228 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.229 [id=101]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.510 [id=92]	INFO	h.ExtensionFinder$GuiceFinder$FaultTolerantScope$1#error: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.GitStep$DescriptorImpl; skipping
+   0.510 [id=92]	INFO	h.ExtensionFinder$GuiceFinder$FaultTolerantScope$1#error: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.SubversionStep$DescriptorImpl; skipping
+   0.522 [id=101]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.535 [id=93]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 58288
+   0.536 [id=93]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.780 [id=83]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.782 [id=83]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.783 [id=83]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.783 [id=83]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.785 [id=131]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #2 from /192.168.128.49:58290
+   0.786 [id=83]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.786 [id=83]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.787 [id=83]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+   0.787 [id=83]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+=== Starting testCommentOnBuildResultNoSkip(org.jenkinsci.plugins.ghprb.GhprbBuildsTest)
+   0.007 [id=132]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:58291/jenkins/
+   0.098 [id=138]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.100 [id=150]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.187 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.188 [id=143]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.189 [id=160]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.395 [id=142]	INFO	h.ExtensionFinder$GuiceFinder$FaultTolerantScope$1#error: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.GitStep$DescriptorImpl; skipping
+   0.396 [id=142]	INFO	h.ExtensionFinder$GuiceFinder$FaultTolerantScope$1#error: Failed to instantiate optional component org.jenkinsci.plugins.workflow.steps.scm.SubversionStep$DescriptorImpl; skipping
+   0.410 [id=160]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.424 [id=161]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 58292
+   0.424 [id=161]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.438 [id=132]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.442 [id=132]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.442 [id=132]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.442 [id=132]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.444 [id=180]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #3 from /192.168.128.49:58294
+   0.445 [id=132]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.445 [id=132]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.446 [id=132]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.446 [id=132]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped

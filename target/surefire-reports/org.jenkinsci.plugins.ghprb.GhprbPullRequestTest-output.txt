@@ -1,0 +1,78 @@
+   0.653 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.670 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on null by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.683 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on name by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.690 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.719 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.725 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.730 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.739 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.747 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.755 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.762 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.770 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.777 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.783 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.789 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.803 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#getPRCommitAuthor: Unable to get PR commits: 
+java.lang.NullPointerException
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequest.getPRCommitAuthor(GhprbPullRequest.java:451)
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequest.tryBuild(GhprbPullRequest.java:550)
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequest$$EnhancerByMockitoWithCGLIB$$28903492.CGLIB$tryBuild$8(<generated>)
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequest$$EnhancerByMockitoWithCGLIB$$28903492$$FastClassByMockitoWithCGLIB$$47ce4ef7.invoke(<generated>)
+	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216)
+	at org.powermock.api.mockito.repackaged.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:19)
+	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21)
+	at org.mockito.internal.invocation.realmethod.CleanTraceRealMethod.invoke(CleanTraceRealMethod.java:30)
+	at org.mockito.internal.invocation.InvocationImpl.callRealMethod(InvocationImpl.java:112)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:41)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:93)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+	at org.powermock.api.mockito.repackaged.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequest$$EnhancerByMockitoWithCGLIB$$28903492.tryBuild(<generated>)
+	at org.jenkinsci.plugins.ghprb.GhprbPullRequestTest.testSkipBuildForWatchedPathsNotCalledWhenIncluded(GhprbPullRequestTest.java:358)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:294)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:141)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:114)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:86)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:134)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+   0.809 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.819 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.829 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha
+   0.845 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Author of #10 null on repoName not in whitelist!
+   0.846 [id=1]	INFO	o.j.p.ghprb.GhprbPullRequest#<init>: Created Pull Request #10 on repoName by null (email) updated at: 7/18/19 10:53 AM SHA: some sha

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jenkinsci.plugins.ghprb.GhprbRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.193 sec - in org.jenkinsci.plugins.ghprb.GhprbRepositoryTest

@@ -1,0 +1,17 @@
+org/jenkinsci/plugins/ghprb/GhprbPullRequestMergeTest.class
+org/jenkinsci/plugins/ghprb/GhprbTriggerTest.class
+org/jenkinsci/plugins/ghprb/GhprbBuildsTest.class
+org/jenkinsci/plugins/ghprb/GhprbITBaseTestCase.class
+org/jenkinsci/plugins/ghprb/GhprbRootActionTest.class
+org/jenkinsci/plugins/ghprb/GhprbTestUtil.class
+org/jenkinsci/plugins/ghprb/manager/factory/GhprbBuildManagerFactoryUtilTest.class
+org/jenkinsci/plugins/ghprb/manager/impl/downstreambuilds/BuildFlowBuildManagerTest.class
+org/jenkinsci/plugins/ghprb/GhprbRepositoryTest.class
+org/jenkinsci/plugins/ghprb/GeneralTest.class
+org/jenkinsci/plugins/ghprb/GhprbIT.class
+org/jenkinsci/plugins/ghprb/extensions/status/GhprbSimpleStatusTest.class
+org/jenkinsci/plugins/ghprb/rules/JenkinsRuleWithBuildFlow.class
+InjectedTest.class
+org/jenkinsci/plugins/ghprb/manager/impl/GhprbDefaultBuildManagerTest.class
+org/jenkinsci/plugins/ghprb/manager/configuration/JobConfigurationTest.class
+org/jenkinsci/plugins/ghprb/GhprbPullRequestTest.class

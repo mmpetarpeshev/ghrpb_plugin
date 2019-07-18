@@ -1,0 +1,12 @@
+org.jenkinsci.plugins.ghprb
+org.jenkinsci.plugins.ghprb.extensions
+org.jenkinsci.plugins.ghprb.extensions.build
+org.jenkinsci.plugins.ghprb.extensions.comments
+org.jenkinsci.plugins.ghprb.extensions.status
+org.jenkinsci.plugins.ghprb.jobdsl
+org.jenkinsci.plugins.ghprb.manager
+org.jenkinsci.plugins.ghprb.manager.configuration
+org.jenkinsci.plugins.ghprb.manager.factory
+org.jenkinsci.plugins.ghprb.manager.impl
+org.jenkinsci.plugins.ghprb.manager.impl.downstreambuilds
+org.jenkinsci.plugins.ghprb.upstream

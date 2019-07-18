@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jvnet.hudson.test.junit.FailedTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.jvnet.hudson.test.junit.FailedTest
