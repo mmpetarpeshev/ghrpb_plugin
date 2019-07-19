@@ -1,6 +1,7 @@
 def utils
 
 pipeline {
+  
   agent any
 
   parameters {
@@ -10,6 +11,10 @@ pipeline {
     choice(name: 'JENKINS_URL', choices: 'http://localhost:8080', description: 'Choose jenkins url  where the plugin should be installed ?')
 
   }
+
+  environment {
+        MAVEN_HOME = tool('mvn')
+    }
 
   options {
     disableConcurrentBuilds()
@@ -21,7 +26,7 @@ pipeline {
   stage("Build ghrp plugin from leanplum fork repository...") {
       steps {
         script {
-            sh 'mvn package' 
+            sh '${MAVEN_HOME}/bin/mvn package' 
         }
       }
     }
