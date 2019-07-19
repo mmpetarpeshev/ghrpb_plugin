@@ -1,7 +1,5 @@
 def utils
 
-
-
 pipeline {
   agent { label 'deployment' }
 
@@ -9,7 +7,7 @@ pipeline {
     string(name: 'BRANCH',
             defaultValue: 'master',
             description: 'Choose master to deploy to both staging and production env. Choose any other feature branch to deploy to staging only')
-    choice(name: 'JENKINS_URL', choices: 'https://jenkins-staging.leanplum.com', description: 'Choose jenkins url  where the plugin should be installed ?')
+    choice(name: 'JENKINS_URL', choices: 'http://localhost:8080', description: 'Choose jenkins url  where the plugin should be installed ?')
 
   }
 
@@ -31,12 +29,14 @@ pipeline {
     stage ("Install the plugin to selected jenkins instance...") {
       steps {
         script {
-          echo "Plugin is installed!"
+          echo "Installing plugin ...."
+          CRUMB = sh (script: "curl -s ‘http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'",returnStdout: true)
+          sh """curl -X POST -H "$CRUMB" --user admin:1178ebd333f5adbab57b3e98f42a673177 -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
+
         }
       }
     } 
   }
-
 }
 
 
