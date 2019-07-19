@@ -1,7 +1,7 @@
 def utils
 
 pipeline {
-  agent { label 'deployment' }
+  agent any
 
   parameters {
     string(name: 'BRANCH',
