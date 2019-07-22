@@ -35,7 +35,7 @@ pipeline {
       steps {
         script {
           echo "Installing plugin ...."
-          CRUMB = sh (script: '''curl -s ‘http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)''''',returnStdout: true)
+          CRUMB = sh (script: "curl -s ‘http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,':',//crumb)'",returnStdout: true)
           sh """curl -X POST -H "$CRUMB" --user admin:1178ebd333f5adbab57b3e98f42a673177 -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
 
         }
