@@ -39,7 +39,7 @@ pipeline {
           //echo "$CRUMB_URL"
           try {
             
-            CRUMB = sh (script: """curl -s \'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)\'""",returnStdout: true)      
+            CRUMB = sh (script: """curl -s 'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)'""",returnStatus: true)      
             echo "$CRUMB"
             //sh """curl -X POST -H "'$CRUMB'" --user admin:d37b341d117b4e1c9968087a0931650b -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
           } catch (Exception e) {
