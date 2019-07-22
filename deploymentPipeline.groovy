@@ -8,7 +8,7 @@ pipeline {
     string(name: 'BRANCH',
             defaultValue: 'master',
             description: 'Choose master to deploy to both staging and production env. Choose any other feature branch to deploy to staging only')
-    choice(name: 'JENKINS_URL', choices: 'http://localhost:8080', description: 'Choose jenkins url  where the plugin should be installed ?')
+    choice(name: 'JENKINS_URL', choices: 'localhost:8080', description: 'Choose jenkins url  where the plugin should be installed ?')
 
   }
 
@@ -39,7 +39,7 @@ pipeline {
           //echo "$CRUMB_URL"
           try {
             
-            CRUMB = sh (script: """curl -s 'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}'""",returnStdout: true)      
+            CRUMB = sh (script: """curl -s 'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)'""",returnStdout: true)      
             echo "$CRUMB"
             //sh """curl -X POST -H "'$CRUMB'" --user admin:d37b341d117b4e1c9968087a0931650b -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
           } catch (Exception e) {
