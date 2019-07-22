@@ -35,10 +35,10 @@ pipeline {
       steps {
         script {
           echo "Installing plugin ...."
-          String CRUMB_URL = """http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)"""
-          echo "$CRUMB_URL"
-          CRUMB = sh (script: """curl -s 'http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)'""",returnStdout: true)      
-          sh """curl -X POST -H "'$CRUMB'" --user admin:1178ebd333f5adbab57b3e98f42a673177 -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
+          //String CRUMB_URL = """http://admin:1178ebd333f5adbab57b3e98f42a673177@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)"""
+          //echo "$CRUMB_URL"
+          CRUMB = sh (script: """curl -s 'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat\\(//crumbRequestField,":",//crumb\\)'""",returnStdout: true)      
+          sh """curl -X POST -H "'$CRUMB'" --user admin:d37b341d117b4e1c9968087a0931650b -i -F file=@ghprb.hpi ${params.JENKINS_URL}/pluginManager/uploadPlugin"""
 
         }
       }
