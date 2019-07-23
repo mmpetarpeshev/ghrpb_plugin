@@ -23,13 +23,13 @@ pipeline {
 
   stages {
     
-  stage("Build ghrp plugin from leanplum fork repository...") {
+  /*stage("Build ghrp plugin from leanplum fork repository...") {
       steps {
         script {
             sh '${MAVEN_HOME}/bin/mvn package' 
         }
       }
-    }
+    }*/
 
     stage ("Install the plugin to selected jenkins instance...") {
       steps {
