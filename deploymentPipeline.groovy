@@ -36,9 +36,11 @@ pipeline {
         script {
           dir("target") {
             echo "Installing plugin ...."
-            def CRUMB = sh (script: """curl -s 'http://admin:d37b341d117b4e1c9968087a0931650b@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'""",returnStdout: true)
-            
-            sh """curl -X POST -H "$CRUMB" --user admin:d37b341d117b4e1c9968087a0931650b -i -F file=@ghprb.hpi http://${params.JENKINS_URL}/pluginManager/uploadPlugin"""
+            withCredentials([usernameColonPassword(credentialsId: 'jenkinsAdmin', variable: 'USERPASS')]) { 
+            def CRUMB = sh (script: """curl -s 'http://$USERPASS@${params.JENKINS_URL}/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'""",returnStdout: true)
+
+            sh """curl -X POST -H "$CRUMB" --user $USERPASS -i -F file=@ghprb.hpi http://${params.JENKINS_URL}/pluginManager/uploadPlugin"""
+          }
         }
        }
       }
