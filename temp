@@ -1,0 +1,3 @@
+withCredentials([file(credentialsId: credentialsId, variable: 'jenkinsAdmin')]) {
+              sh "...."
+            }
